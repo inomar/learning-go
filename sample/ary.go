@@ -21,4 +21,9 @@ func main() {
   h := []int{1,2}
   println(g[0],g[1])
   println(h[0],len(f))
+
+  // マップ型
+  m := map[string]int{"a":1, "b":2}
+  m["b"] = 10
+  println(m["a"], m["b"])
 }

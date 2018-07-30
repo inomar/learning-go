@@ -10,4 +10,5 @@ $ go run main.go
 
 ```
 $ go test -v ./animals
+$ go test -v
 ```

@@ -37,6 +37,12 @@ func main() {
 	rn := '松'
 	fmt.Printf("%v", rn)
 
+	rw := `
+	    私の
+	　　名前は
+	　　太郎です
+	`
+	fmt.Printf("%v", rw)
 }
 
 func one() int {

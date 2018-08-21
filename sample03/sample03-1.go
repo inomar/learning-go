@@ -184,4 +184,6 @@ func map_sample() {
 
 	fmt.Println(m, m2)
 
+	m3 := map[int]string{1: "Taro", 2: "Hanako", 3: "Jiro"}
+	fmt.Println(m3)
 }

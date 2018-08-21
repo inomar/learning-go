@@ -186,4 +186,25 @@ func map_sample() {
 
 	m3 := map[int]string{1: "Taro", 2: "Hanako", 3: "Jiro"}
 	fmt.Println(m3)
+
+	m4 := map[string][]int{
+		"one":   []int{1},
+		"two":   []int{1, 2},
+		"three": []int{1, 2, 3}, // <= この書き方の場合は最後にカンマが必要
+	}
+	fmt.Println(m4)
+
+	m5 := map[int][]int{
+		1: {1},
+		2: {1, 2},
+		3: {1, 2, 3},
+	}
+	fmt.Println(m5)
+
+	m6 := map[int]map[string]int{
+		1: {"one": 1, "two": 2},
+		2: {"おはよう": 10, "こんにちは": 20, "こんばんは": 30},
+		3: {"羊": 100},
+	}
+	fmt.Println(m6)
 }
